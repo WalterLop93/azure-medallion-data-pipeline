@@ -116,6 +116,6 @@ This project combines construction industry knowledge with data engineering prac
 
 Author
 
-Walter Lopez
-Architect | Data Analytics | Data Engineering
+## Walter Lopez
+## Architect | Data Analytics | Data Engineering
 
