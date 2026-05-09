@@ -1,3 +1,5 @@
+![Architecture Cover](diagrams/portada.png)
+
 # Azure Medallion Data Pipeline
 
 End-to-end Data Engineering project using Azure Data Factory, Azure Blob Storage, Databricks, PySpark and Delta Lake, implementing a Medallion Architecture approach.
