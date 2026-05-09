@@ -1,4 +1,4 @@
-![Architecture Cover](diagrams/portada.png)
+![Architecture Cover](diagrams/Portada.png)
 
 # Azure Medallion Data Pipeline
 
