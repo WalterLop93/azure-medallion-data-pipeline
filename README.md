@@ -41,6 +41,7 @@ Silver Layer
 Gold Layer
       ↓
 Analytical Outputs
+```
 
 Data Sources
 
