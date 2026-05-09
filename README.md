@@ -54,8 +54,9 @@ SQL table with supplier information
 Due to GitHub file size limits, the repository includes a reduced sample dataset.
 The original dataset used in the project contained approximately 500,000 records.
 
-Medallion Layers
-Bronze Layer
+##Medallion Layers
+
+###Bronze Layer
 
 The Bronze layer stores raw ingested data in Delta format, preserving the original structure as much as possible.
 
@@ -65,7 +66,8 @@ Read data from RAW storage
 Load CSV, JSON and SQL-based datasets
 Store data as Delta tables
 Organize data for further processing
-Silver Layer
+
+###Silver Layer
 
 The Silver layer applies cleaning, validation and enrichment logic.
 
@@ -77,7 +79,8 @@ Filter invalid values
 Standardize data types
 Join consumption data with materials and suppliers
 Calculate total material cost
-Gold Layer
+
+###Gold Layer
 
 The Gold layer contains aggregated datasets ready for analysis and reporting.
 
@@ -87,14 +90,16 @@ Total material cost by project
 Top suppliers by historical spending
 Top materials by consumption and cost
 Business-ready analytical tables
-Pipeline Flow
+
+##Pipeline Flow
 Data is ingested using Azure Data Factory.
 Files are copied into Azure Blob Storage.
 Databricks notebooks process the data.
 Data is transformed through Bronze, Silver and Gold layers.
 Final analytical tables are generated in Delta format.
 The workflow is automated using scheduled triggers.
-Repository Structure
+
+##Repository Structure
 ```text
 ├── datasets
 │   └── Sample datasets used for the project
