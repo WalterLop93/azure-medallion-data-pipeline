@@ -98,7 +98,7 @@ Repository Structure
 ├── datasets
 │   └── Sample datasets used for the project
 ├── diagrams
-│   └── Architecture and pipeline diagrams
+│   └── Medallion and Pipeline Architecture/Diagrams
 ├── docs
 │   └── Final project documentation
 ├── notebooks
@@ -113,9 +113,6 @@ The pipeline allows the analysis of costs, suppliers and materials across differ
 
 This project combines construction industry knowledge with data engineering practices.
 
-Security Notes
-
-Sensitive information such as passwords, tokens, access keys and connection strings was removed from this public repository.
 
 Author
 
