@@ -95,7 +95,7 @@ Data is transformed through Bronze, Silver and Gold layers.
 Final analytical tables are generated in Delta format.
 The workflow is automated using scheduled triggers.
 Repository Structure
-.
+```text
 ├── datasets
 │   └── Sample datasets used for the project
 ├── diagrams
@@ -107,7 +107,9 @@ Repository Structure
 │   ├── silver
 │   └── gold
 └── README.md
-Business Context
+```
+
+## Business Context
 
 The dataset represents material consumption in construction projects.
 The pipeline allows the analysis of costs, suppliers and materials across different projects, supporting better decision-making in construction management.
